@@ -1,4 +1,4 @@
-node {
+pipline {
 	agent any
 	stages {
 		stage('Build'){
@@ -16,6 +16,5 @@ node {
 				echo "Integration Test"
 			}
 		}
-	}
-	
+	}	
 }
